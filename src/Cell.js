@@ -8,11 +8,11 @@ export default class Cell extends React.Component {
         }
     }
 
-    colorSwitch = () => {
+    colorSwitch = () => (
         this.setState({
             color: '#333'
         })
-    }
+    )
 
     render() {
         return (
