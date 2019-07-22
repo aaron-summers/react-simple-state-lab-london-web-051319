@@ -19,7 +19,7 @@ export default class Cell extends React.Component {
             <div className="cell" style={{backgroundColor: this.state.color}} onClick={() => {
                 // console.log('color switched to #333')
                 this.setState({
-                  color: '#333'
+                  value: '#333'
                 })
             }}>
 
