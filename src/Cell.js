@@ -8,17 +8,19 @@ export default class Cell extends React.Component {
         }
     }
 
-    colorSwitch = () => {
-        this.setState({
-            color: '#333'
-        })
-    }
+    // colorSwitch = () => {
+    //     this.setState({
+    //         color: '#333'
+    //     })
+    // }
 
     render() {
         return (
             <div className="cell" style={{backgroundColor: this.state.color}} onClick={() => {
                 // console.log('color switched to #333')
-                this.colorSwitch()
+                this.setState({
+                  color: '#333'
+                })
             }}>
 
             </div>
