@@ -10,7 +10,7 @@ export default class Cell extends React.Component {
 
     colorSwitch = () => {
         this.setState({
-            value: '#333'
+            color: '#333'
         })
     }
 
